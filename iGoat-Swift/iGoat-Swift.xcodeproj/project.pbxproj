@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -120,6 +120,7 @@
 		A2C99F872096515F007E9BBE /* CutAndPasteExerciseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C99F5C2096515F007E9BBE /* CutAndPasteExerciseVC.xib */; };
 		A2C99F882096515F007E9BBE /* SocialEngineeringVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C99F5E2096515F007E9BBE /* SocialEngineeringVC.swift */; };
 		A2C99F892096515F007E9BBE /* SocialEngineeringVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C99F5F2096515F007E9BBE /* SocialEngineeringVC.xib */; };
+		B1763CF52BFFCE51001B1D5A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B1763CF42BFFCE51001B1D5A /* RealmSwift */; };
 		BDED1303298406CA008C023D /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDED1302298406CA008C023D /* CouchbaseLite.framework */; };
 		BDF016E329802CCA0004EE8D /* YapDatabaseConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF0160229802CC90004EE8D /* YapDatabaseConnection.m */; };
 		BDF016E429802CCA0004EE8D /* YapDatabaseTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF0160429802CC90004EE8D /* YapDatabaseTransaction.m */; };
@@ -220,8 +221,6 @@
 		C0FD38F62106E1D9004458FC /* WebkitCacheExerciseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD38F42106E1D9004458FC /* WebkitCacheExerciseVC.swift */; };
 		C0FD38FA2106E1DE004458FC /* BinaryCookiesExerciseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FD38F82106E1DE004458FC /* BinaryCookiesExerciseVC.swift */; };
 		C0FD38FB2106E1DE004458FC /* BinaryCookiesExerciseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0FD38F92106E1DE004458FC /* BinaryCookiesExerciseVC.xib */; };
-		D549FF54FDFCC63C56C22127 /* Pods_iGoat_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D92E782B3D0FBA96329259 /* Pods_iGoat_Swift.framework */; };
-		E79720C9DC2043E95EE6DEB1 /* Pods_iGoat_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD226B821287E8B3D4C1E27 /* Pods_iGoat_SwiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -235,10 +234,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01D92E782B3D0FBA96329259 /* Pods_iGoat_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iGoat_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A49E164A1DE4B520A919C99 /* Pods-iGoat-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGoat-Swift.release.xcconfig"; path = "Target Support Files/Pods-iGoat-Swift/Pods-iGoat-Swift.release.xcconfig"; sourceTree = "<group>"; };
-		2BD800E34D182F7F34D4B977 /* Pods-iGoat-SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGoat-SwiftTests.release.xcconfig"; path = "Target Support Files/Pods-iGoat-SwiftTests/Pods-iGoat-SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
-		5AD226B821287E8B3D4C1E27 /* Pods_iGoat_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iGoat_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		823D42E12156C67E001B138F /* RealmExerciseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmExerciseVC.swift; sourceTree = "<group>"; };
 		823D42E22156C67E001B138F /* RealmExerciseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RealmExerciseVC.xib; sourceTree = "<group>"; };
 		823D42EA2156D5B2001B138F /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "iGoat-Swift/ThirdParty/Realm/Realm.framework"; sourceTree = "<group>"; };
@@ -258,7 +253,6 @@
 		82EAF6CF210C3F0A00336012 /* MethodSwizzlingExerciseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MethodSwizzlingExerciseVC.xib; sourceTree = "<group>"; };
 		82FF641721576EEB0042D913 /* YapExerciseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YapExerciseVC.swift; sourceTree = "<group>"; };
 		82FF641821576EEB0042D913 /* YapExerciseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YapExerciseVC.xib; sourceTree = "<group>"; };
-		A2238937E6CF07D9F8B13772 /* Pods-iGoat-SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGoat-SwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-iGoat-SwiftTests/Pods-iGoat-SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A238A973207897A2006C042F /* iGoat-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iGoat-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A238A976207897A2006C042F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A238A97B207897A2006C042F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -572,7 +566,6 @@
 		C0FD38F42106E1D9004458FC /* WebkitCacheExerciseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebkitCacheExerciseVC.swift; sourceTree = "<group>"; };
 		C0FD38F82106E1DE004458FC /* BinaryCookiesExerciseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryCookiesExerciseVC.swift; sourceTree = "<group>"; };
 		C0FD38F92106E1DE004458FC /* BinaryCookiesExerciseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BinaryCookiesExerciseVC.xib; sourceTree = "<group>"; };
-		ECFE51E46D8FEA76774C2832 /* Pods-iGoat-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGoat-Swift.debug.xcconfig"; path = "Target Support Files/Pods-iGoat-Swift/Pods-iGoat-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -580,12 +573,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1763CF52BFFCE51001B1D5A /* RealmSwift in Frameworks */,
 				82A87DE8214E886100E5A12A /* SystemConfiguration.framework in Frameworks */,
 				82A87DD9214E800200E5A12A /* CouchbaseLite.framework in Frameworks */,
 				82A87DE4214E884500E5A12A /* libstdc++.tbd in Frameworks */,
 				82A87DE2214E86C900E5A12A /* libz.tbd in Frameworks */,
 				A25B4F892095CC890065171C /* libsqlite3.tbd in Frameworks */,
-				D549FF54FDFCC63C56C22127 /* Pods_iGoat_Swift.framework in Frameworks */,
 				BDED1303298406CA008C023D /* CouchbaseLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -594,7 +587,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E79720C9DC2043E95EE6DEB1 /* Pods_iGoat_SwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,7 +655,6 @@
 				A238A98A207897A2006C042F /* iGoat-SwiftTests */,
 				A238A974207897A2006C042F /* Products */,
 				A25B4F872095CC7E0065171C /* Frameworks */,
-				A771728A02720BCD2D250AE4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -875,8 +866,6 @@
 				A25B4F882095CC7E0065171C /* libsqlite3.tbd */,
 				82A87DD8214E800200E5A12A /* CouchbaseLite.framework */,
 				823D42EA2156D5B2001B138F /* Realm.framework */,
-				01D92E782B3D0FBA96329259 /* Pods_iGoat_Swift.framework */,
-				5AD226B821287E8B3D4C1E27 /* Pods_iGoat_SwiftTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1133,17 +1122,6 @@
 				A2C99F5F2096515F007E9BBE /* SocialEngineeringVC.xib */,
 			);
 			path = "Social Engineering";
-			sourceTree = "<group>";
-		};
-		A771728A02720BCD2D250AE4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				ECFE51E46D8FEA76774C2832 /* Pods-iGoat-Swift.debug.xcconfig */,
-				2A49E164A1DE4B520A919C99 /* Pods-iGoat-Swift.release.xcconfig */,
-				A2238937E6CF07D9F8B13772 /* Pods-iGoat-SwiftTests.debug.xcconfig */,
-				2BD800E34D182F7F34D4B977 /* Pods-iGoat-SwiftTests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		BDED1301298406CA008C023D /* CouchBase */ = {
@@ -1616,18 +1594,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A238A990207897A2006C042F /* Build configuration list for PBXNativeTarget "iGoat-Swift" */;
 			buildPhases = (
-				E2727F720A2DC4327C6DD231 /* [CP] Check Pods Manifest.lock */,
 				A238A96F207897A2006C042F /* Sources */,
 				A238A970207897A2006C042F /* Frameworks */,
 				A238A971207897A2006C042F /* Resources */,
 				A238AA622079A6F2006C042F /* ShellScript */,
-				96B14E19C4DE16AB67462AAB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "iGoat-Swift";
+			packageProductDependencies = (
+				B1763CF42BFFCE51001B1D5A /* RealmSwift */,
+			);
 			productName = "iGoat-Swift";
 			productReference = A238A973207897A2006C042F /* iGoat-Swift.app */;
 			productType = "com.apple.product-type.application";
@@ -1636,7 +1615,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A238A993207897A2006C042F /* Build configuration list for PBXNativeTarget "iGoat-SwiftTests" */;
 			buildPhases = (
-				972782A0B425D7227D0D108B /* [CP] Check Pods Manifest.lock */,
 				A238A983207897A2006C042F /* Sources */,
 				A238A984207897A2006C042F /* Frameworks */,
 				A238A985207897A2006C042F /* Resources */,
@@ -1663,10 +1641,12 @@
 				TargetAttributes = {
 					A238A972207897A2006C042F = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = "";
 						ProvisioningStyle = Manual;
 					};
 					A238A986207897A2006C042F = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = "";
 						ProvisioningStyle = Automatic;
 						TestTargetID = A238A972207897A2006C042F;
 					};
@@ -1681,6 +1661,9 @@
 				Base,
 			);
 			mainGroup = A238A96A207897A2006C042F;
+			packageReferences = (
+				B17CB9322BFFC92D00591407 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = A238A974207897A2006C042F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1759,48 +1742,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		96B14E19C4DE16AB67462AAB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iGoat-Swift/Pods-iGoat-Swift-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iGoat-Swift/Pods-iGoat-Swift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		972782A0B425D7227D0D108B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iGoat-SwiftTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A238AA622079A6F2006C042F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1813,28 +1754,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
-		};
-		E2727F720A2DC4327C6DD231 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iGoat-Swift-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -2146,14 +2065,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		A238A991207897A2006C042F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECFE51E46D8FEA76774C2832 /* Pods-iGoat-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -2168,8 +2087,11 @@
 				);
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/iGoat-Swift/ThirdParty";
 				INFOPLIST_FILE = "iGoat-Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "OWASP.iGoat-Swifth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2182,7 +2104,6 @@
 		};
 		A238A992207897A2006C042F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A49E164A1DE4B520A919C99 /* Pods-iGoat-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -2197,8 +2118,11 @@
 				);
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/iGoat-Swift/ThirdParty";
 				INFOPLIST_FILE = "iGoat-Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "OWASP.iGoat-Swifth";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2211,13 +2135,16 @@
 		};
 		A238A994207897A2006C042F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2238937E6CF07D9F8B13772 /* Pods-iGoat-SwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iGoat-SwiftTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "OWASP.iGoat-SwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -2228,13 +2155,16 @@
 		};
 		A238A995207897A2006C042F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BD800E34D182F7F34D4B977 /* Pods-iGoat-SwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iGoat-SwiftTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "OWASP.iGoat-SwiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -2274,6 +2204,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B17CB9322BFFC92D00591407 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1763CF42BFFCE51001B1D5A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B17CB9322BFFC92D00591407 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C0AF22FC20B816B200B13D26 /* CoreData.xcdatamodeld */ = {
